@@ -1,0 +1,31 @@
+.banner-bg{
+    margin: 20px 0px;
+}
+.typing {
+  font-size: 23px;
+  position: relative;
+  font-weight: 700;
+  &::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: lightblue;
+    background: linear-gradient(
+      to right,
+      hsl(128deg 42.86% 51.96% / 98%) 10%,
+      hsl(176.76deg 42.54% 52.19%) 50%
+    );
+    animation: typing 15s steps(38) forwards infinite, caret 1s infinite;
+  }
+}
+@keyframes typing {
+  to {
+    width: 0;
+  }
+}
+@keyframes caret {
+  50% {
+    color: transparent;
+  }
+}

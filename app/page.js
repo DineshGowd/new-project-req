@@ -1,3 +1,4 @@
+import Banner from '@/components/Banner/Banner'
 import styles from './page.module.css'
 import Card from '@/components/card/Card'
 
@@ -26,12 +27,13 @@ const cardData = [
     img: "../assets/contact-form.png",
     logo: "../assets/contact.png"
   },
- 
+
 ]
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Banner />
       <Card data={cardData} />
     </main>
   )
