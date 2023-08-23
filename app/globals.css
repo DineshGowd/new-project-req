@@ -59,6 +59,7 @@ ul {
   word-spacing: 0pt;
   padding: 10px;
   position: fixed;  
+  font-weight: 700;
 }
 
 @media (prefers-color-scheme: dark) {
