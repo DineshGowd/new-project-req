@@ -3,6 +3,12 @@ import Card from '@/components/card/Card'
 
 const cardData = [
   {
+    title: "We build website in modern way ",
+    desc: "Your customers experience the blazing fast loading website. Zero downtime and Issue free seemless browsing website. ",
+    img: "../assets/zero.png",
+    logo: "svg"
+  },
+  {
     title: "Basic Website Contains ?",
     desc: "Navigation, Main Banner, Footer",
     img: "https://cdn.shopify.com/s/files/1/0070/7032/files/Homepage_Design.jpg",
@@ -20,6 +26,7 @@ const cardData = [
     img: "../assets/contact-form.png",
     logo: "../assets/contact.png"
   },
+ 
 ]
 
 export default function Home() {
