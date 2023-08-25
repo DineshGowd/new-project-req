@@ -13,7 +13,7 @@
     color: lightblue;
     background: linear-gradient(
       to right,
-      hsl(128deg 42.86% 51.96% / 98%) 10%,
+      hsl(128deg 42.86% 51.96%) 10%,
       hsl(176.76deg 42.54% 52.19%) 50%
     );
     animation: typing 15s steps(38) forwards infinite, caret 1s infinite;
